@@ -15,6 +15,8 @@ on:
 jobs:
   test:
     uses: Arthri/test-dotnet/.github/workflows/i.yml@v1
+    permissions:
+      contents: read
 ```
 
 ## Usage
